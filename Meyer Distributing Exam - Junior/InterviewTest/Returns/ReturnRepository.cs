@@ -20,6 +20,12 @@ namespace InterviewTest.Returns
         {
             returns = returns.Where(o => !string.Equals(removedReturn.ReturnNumber, o.ReturnNumber)).ToList();
         }
+        
+        // Added a function to clear out the List<IReturn> returns of any contents.
+        public void Clear()
+        {
+            returns.Clear();
+        }
 
         public List<IReturn> Get()
         {

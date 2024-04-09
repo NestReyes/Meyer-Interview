@@ -21,6 +21,12 @@ namespace InterviewTest.Orders
             orders = orders.Where(o => !string.Equals(removedOrder.OrderNumber, o.OrderNumber)).ToList();
         }
 
+        // Added a function to clear List<IOrder> orders from any content.
+        public void Clear()
+        {
+            orders.Clear();
+        }
+
         public List<IOrder> Get()
         {
             return orders;

@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Nestor Reyes
+
+using System;
 using System.Linq;
 using InterviewTest.Customers;
 using InterviewTest.Orders;
@@ -59,7 +61,14 @@ namespace InterviewTest
             IReturn rga = new Return("TruckAccessoriesReturn123", order);
             rga.AddProduct(order.Products.First());
 
+            //BUG FIX: Returns not being created for this customer.
+            customer.CreateReturn(rga);
             ConsoleWriteLineResults(customer);
+
+            //BUG FIX: Order repo not being wiped clean after each transaction.
+            orderRepo.Clear();
+            returnRepo.Clear();
+
         }
 
         private static void ProcessCarDealershipExample()
@@ -76,6 +85,10 @@ namespace InterviewTest
             customer.CreateReturn(rga);
 
             ConsoleWriteLineResults(customer);
+
+            //BUG FIX: Order repo not being wiped clean after each transaction.
+            orderRepo.Clear();
+            returnRepo.Clear();
         }
 
         private static ICustomer GetTruckAccessoriesCustomer()
