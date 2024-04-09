@@ -5,7 +5,15 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewTest", "InterviewTest\InterviewTest.csproj", "{4B6ED8D4-F7C8-4E5E-A8E1-2F4DFE5E42B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "TestProject1\UnitTesting.csproj", "{BBA77070-CE31-4C8F-9754-80DA609B98D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTesting", "TestProject1\UnitTesting.csproj", "{BBA77070-CE31-4C8F-9754-80DA609B98D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Scripts", "SQL Scripts", "{48E5103B-6D3C-4CC6-9577-7496AEACAF16}"
+	ProjectSection(SolutionItems) = preProject
+		Customers.sql = Customers.sql
+		OrderRepo.sql = OrderRepo.sql
+		Products.sql = Products.sql
+		ReturnRepo.Sql = ReturnRepo.Sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
