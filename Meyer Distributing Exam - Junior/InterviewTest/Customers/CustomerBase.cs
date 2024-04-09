@@ -46,14 +46,19 @@ namespace InterviewTest.Customers
             float totalSales = 0;
             foreach(Order order in GetOrders())
             {
-                // For each order, get the product list.
-                List<OrderedProduct> productsInOrder = order.Products;
-
-                // For each product, get the cost of the product, add it to the totalSales counter, return totalSales.
-                foreach(OrderedProduct customerProduct in productsInOrder)
+            
+                //BUG FIX: Checks to see if the ordering customer's name is the same as the current customer.
+                if (order.Customer.GetName() == GetName())
                 {
-                    //Console.WriteLine("Test: " + customerProduct.Product.GetSellingPrice());
-                    totalSales += customerProduct.Product.GetSellingPrice();
+                    // For each order, get the product list.
+                    List<OrderedProduct> productsInOrder = order.Products;
+
+                    // For each product, get the cost of the product, add it to the totalSales counter, return totalSales.
+                    foreach (OrderedProduct customerProduct in productsInOrder)
+                    {
+                        //Console.WriteLine("Test: " + customerProduct.Product.GetSellingPrice());
+                        totalSales += customerProduct.Product.GetSellingPrice();
+                    }
                 }
             }
 
@@ -69,13 +74,18 @@ namespace InterviewTest.Customers
             float totalReturns = 0;
             foreach (Return returnOrder in GetReturns())
             {
-                // For each order, get the product list.
-                List<ReturnedProduct> returnsInOrder = returnOrder.ReturnedProducts;
-
-                // For each product, get the cost of the product, add it to the totalSales counter, return totalSales.
-                foreach (ReturnedProduct customerReturn in returnsInOrder)
+                //BUG FIX: Checks to see if the return customer's name is the same as the current customer.
+                String returnCustomer = returnOrder.OriginalOrder.Customer.GetName();
+                if (returnCustomer == GetName())
                 {
-                    totalReturns += customerReturn.OrderProduct.Product.GetSellingPrice();
+                    // For each order, get the product list.
+                    List<ReturnedProduct> returnsInOrder = returnOrder.ReturnedProducts;
+
+                    // For each product, get the cost of the product, add it to the totalSales counter, return totalSales.
+                    foreach (ReturnedProduct customerReturn in returnsInOrder)
+                    {
+                        totalReturns += customerReturn.OrderProduct.Product.GetSellingPrice();
+                    }
                 }
             }
 

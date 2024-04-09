@@ -66,8 +66,10 @@ namespace InterviewTest
             ConsoleWriteLineResults(customer);
 
             //BUG FIX: Order repo not being wiped clean after each transaction.
-            orderRepo.Clear();
-            returnRepo.Clear();
+            // Alternative fix: The same order repo/return repo is shared between customer, it would probably be better to create a 
+            // seperate orderRepo and returnRepo for each customer and and create two main repos for all information later. 
+            //orderRepo.Clear();
+            //returnRepo.Clear();
 
         }
 
@@ -87,8 +89,8 @@ namespace InterviewTest
             ConsoleWriteLineResults(customer);
 
             //BUG FIX: Order repo not being wiped clean after each transaction.
-            orderRepo.Clear();
-            returnRepo.Clear();
+            //orderRepo.Clear();
+            // returnRepo.Clear();
         }
 
         private static ICustomer GetTruckAccessoriesCustomer()

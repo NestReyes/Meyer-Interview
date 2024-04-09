@@ -19,3 +19,48 @@ Meyer Distributing Exam - Junior/InterviewTest/obj/Debug/net5.0/InterviewTest.Ge
 Meyer Distributing Exam - Junior/InterviewTest/obj/Debug/net5.0/InterviewTest.AssemblyInfo.cs
 Meyer Distributing Exam - Junior/InterviewTest/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
 Meyer Distributing Exam - Junior/.vs/InterviewTest/v17/.suo
+*.vsidx
+*.testlog
+*.manifest
+*.editorconfig
+*.BuildWithSkipAnalyzers
+Meyer Distributing Exam - Junior/InterviewTest/InterviewTest.csproj
+Meyer Distributing Exam - Junior/InterviewTest/InterviewTest.csproj
+*.props
+*.xml
+Meyer Distributing Exam - Junior/TestProject1/bin/Debug/net5.0/CoverletSourceRootsMapping
+Meyer Distributing Exam - Junior/TestProject1/bin/Debug/net5.0/nunit_random_seed.tmp
+Meyer Distributing Exam - Junior/TestProject1/obj/Debug/net5.0/UnitTest.8DCDB1EF.Up2Date
+Meyer Distributing Exam - Junior/TestProject1/obj/Debug/net5.0/TestProj.494AA513.Up2Date
+Meyer Distributing Exam - Junior/packages/MSTest.TestFramework.2.2.10/MSTest.TestFramework.2.2.10.nupkg
+Meyer Distributing Exam - Junior/packages/MSTest.TestFramework.2.2.10/Icon.png
+Meyer Distributing Exam - Junior/packages/MSTest.TestFramework.2.2.10/build/net5.0/MSTest.TestFramework.targets
+Meyer Distributing Exam - Junior/packages/MSTest.TestFramework.2.2.10/.signature.p7s
+Meyer Distributing Exam - Junior/packages/MSTest.TestAdapter.2.2.10/MSTest.TestAdapter.2.2.10.nupkg
+Meyer Distributing Exam - Junior/packages/MSTest.TestAdapter.2.2.10/Icon.png
+Meyer Distributing Exam - Junior/packages/MSTest.TestAdapter.2.2.10/build/uap10.0/MSTest.TestAdapter.targets
+Meyer Distributing Exam - Junior/packages/MSTest.TestAdapter.2.2.10/build/net5.0/MSTest.TestAdapter.targets
+Meyer Distributing Exam - Junior/packages/MSTest.TestAdapter.2.2.10/build/net46/MSTest.TestAdapter.targets
+Meyer Distributing Exam - Junior/packages/MSTest.TestAdapter.2.2.10/build/net45/MSTest.TestAdapter.targets
+Meyer Distributing Exam - Junior/packages/MSTest.TestAdapter.2.2.10/.signature.p7s
+*.targets
+Meyer Distributing Exam - Junior/UnitTestProject1/app.config
+Meyer Distributing Exam - Junior/UnitTestProject1/obj/Debug/UnitTestProject1.csproj.FileListAbsolute.txt
+Meyer Distributing Exam - Junior/UnitTestProject1/Properties/AssemblyInfo.cs
+Meyer Distributing Exam - Junior/UnitTestProject1/UnitTest1.cs
+Meyer Distributing Exam - Junior/UnitTestProject1/UnitTestProject1.csproj
+Meyer Distributing Exam - Junior/UnitTestProject1/packages.config
+Meyer Distributing Exam - Junior/UnitTestProject1/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+Meyer Distributing Exam - Junior/InterviewTest/InterviewTest.csproj
+Meyer Distributing Exam - Junior/InterviewTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+Meyer Distributing Exam - Junior/InterviewTest/obj/Debug/net6.0/InterviewTest.AssemblyInfo.cs
+Meyer Distributing Exam - Junior/InterviewTest/obj/Debug/net6.0/InterviewTest.csproj.FileListAbsolute.txt
+Meyer Distributing Exam - Junior/InterviewTest/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+Meyer Distributing Exam - Junior/InterviewTest/obj/Debug/netcoreapp3.1/InterviewTest.AssemblyInfo.cs
+Meyer Distributing Exam - Junior/InterviewTest/obj/Debug/netcoreapp3.1/InterviewTest.csproj.FileListAbsolute.txt
+Meyer Distributing Exam - Junior/TestProject1/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+Meyer Distributing Exam - Junior/TestProject1/obj/Debug/net5.0/TestProject1.AssemblyInfo.cs
+Meyer Distributing Exam - Junior/TestProject1/obj/Debug/net5.0/UnitTesting.AssemblyInfo.cs
+Meyer Distributing Exam - Junior/TestProject1/obj/Debug/net5.0/UnitTesting.csproj.FileListAbsolute.txt
+Meyer Distributing Exam - Junior/TestProject1/UnitTesting.csproj
+Meyer Distributing Exam - Junior/TestProject1/obj/Debug/net5.0/TestProject1.csproj.FileListAbsolute.txt

@@ -21,5 +21,7 @@ namespace InterviewTest.Orders
         {
             Products.Add(new OrderedProduct(product));
         }
+
+        public void AddProduct(){}
     }
 }
